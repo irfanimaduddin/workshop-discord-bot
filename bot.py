@@ -5,7 +5,7 @@ from discord.ext import commands
 
 import numpy as np
 
-token = "ODU2NDUyNTE5MDA2MTc1MjUz.YNBPkA.nIzChxTbXfXe9JGjqMUA7HCw9HY"
+token = <Fill discord token here>
 
 BOT_PREFIX = "$"
 
@@ -41,54 +41,7 @@ async def register(ctx, *args):
 
     tes_user = [
         "Irfan Imaduddin",
-        "Tiara",
-        "Rezky",
-        "Eston Anin",
-        "Agus TPJ",
-        "Muhammad Akbarul Human",
-        "Ayu Lestari",
-        "Mahirah Ulfah Abdi",
-        "Mulyadi",
-        "Lynatu Khoirinnisa",
-        "Putri Rahmawati",
-        "Ruslandi",
-        "Fransiska Yoefi",
-        "Farahhati Mumtahana",
-        "Ryan Sudrajat P. Putra",
-        "Bagas Adicita Rabbani",
-        "Baskoro Adi Pratomo",
-        "Raihan Mohammad Fikri",
-        "Maya Hermawati",
-        "Nurlaila, S.Si",
-        "Venny Christiani Wahyudi",
-        "Siti Sarah",
-        "O. Rocky Fernandes",
-        "Arkha Ridho",
-        "Nauralitha Zayn Aqnia",
-        "Hayuning Azaniarti",
-        "Tiara Dewi Imas Mahardika",
-        "dr. Erda Purnamasari",
-        "Salma Dilsani Sabita",
-        "Alfina Asha Putri Ramadhani",
-        "Asyian Zanil",
-        "Atma Dewita",
-        "Almira Sifak Fauziah Narariya",
-        "Rifqi Rizmanda Abidin",
-        "Nanda Ayu Windasari",
-        "Reza Nur Wibisono",
-        "Kresna Darmawan",
-        "Adinda Wulan Anjarwati",
-        "Novita Hudyaningtyas",
-        "Niken Ayu Febrianti Ratnasari",
-        "Majedah Ulfa",
-        "Adila Widya Utami",
-        "Ira Sidik ",
-        "Fenny Nur Handayani",
-        "Martinus Luther Langga Gado",
-        "Eka Oktowani",
-        "Nur Hikmah",
-        "Andreas C.H. Louk",
-        "Felix K. A. Durto"
+        "John Doe"
         ]
 
     tes_user = np.asarray(tes_user)
